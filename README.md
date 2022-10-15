@@ -33,7 +33,7 @@
 <br />
 <div align="center">
   <a href="https://crecexdiez.com/e/git">
-    <img src="public/logocrece.png" alt="Logo" width="80" height="80">
+    <img src="public/logocrece.png" alt="Logo" width="80" height="auto">
   </a>
 
   <h3 align="center">CrecePlus Catalog </h3>
@@ -70,7 +70,6 @@ To consider:
 
 Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
 
-Use the `BLANK_README.md` to get started.
 
 [product-screenshot]: public/screenshot.webp
 
