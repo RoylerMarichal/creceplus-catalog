@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+.react-calendar { 
+  width: 400px;
+  max-width: 100%;
+  background-color: #fff;
+  color: #222;
+  border-radius: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.125em;
+ }
+ .react-calendar__navigation button {
+  color: #030303;
+  min-width: 44px;
+  background: none;
+  font-size: 16px;
+  margin-top: 8px;
+ }
+ .react-calendar__navigation button:enabled:hover,
+ .react-calendar__navigation button:enabled:focus {
+  background-color: #f8f8fa;
+ }
+ .react-calendar__navigation button[disabled] {
+  background-color: #f0f0f0;
+ }
+
+ abbr[title] {
+  text-decoration: none;
+ }
+ /* .react-calendar__month-view__days__day--weekend {
+  color: #d10000;
+ } */
+ .react-calendar__tile:enabled:hover,
+ .react-calendar__tile:enabled:focus {
+  background: #f8f8fa;
+  color: #030303;
+  border-radius: 6px;
+ }
+ .react-calendar__tile--now {
+  background: #03030333;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #030303;
+ }
+ .react-calendar__tile--now:enabled:hover,
+ .react-calendar__tile--now:enabled:focus {
+  background: #03030333;
+  border-radius: 6px;
+  font-weight: bold;
+  color: #030303;
+ }
+ .react-calendar__tile--hasActive:enabled:hover,
+ .react-calendar__tile--hasActive:enabled:focus {
+  background: #f8f8fa;
+  color: #000000;
+ }
+ .react-calendar__tile--active {
+  background: #030303;
+  border-radius: 6px;
+  font-weight: bold;
+  color: white;
+ }
+ .react-calendar__tile--active:enabled:hover,
+ .react-calendar__tile--active:enabled:focus {
+  background: #030303;
+  color: white;
+ }
+ .react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #f8f8fa;
+ }
+ .react-calendar__tile--range {
+  background: #f8f8fa;
+  color: #030303;
+  border-radius: 0;
+ }
+ .react-calendar__tile--rangeStart {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+  background: #030303;
+  color: white;
+ }
+ .react-calendar__tile--rangeEnd {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background: #030303;
+  color: white;
+ }
+
+.font-ibarra {
+  font-family: "Ibarra Real Nova", serif;
+}
+
+.main-color {
+  color: #000000;
+}
+
+.bg-color {
+  background-color: #000000;
+}
+
+ 
+
+.image-gallery-slides {@apply h-[400px]  }
+.btn-main {@apply bg-color   text-white px-10 py-2 hover:opacity-80 rounded-3xl }
+.btn-black {@apply bg-black lg:mr-auto  text-white font-medium p-4 px-20 my-3 hover:opacity-70 }
+.input-text {@apply border-2 my-2 text-gray-800 border-black p-2 w-auto }
+
+.container {@apply px-6 lg:px-1 mx-auto py-4}
+.button-white-primary {@apply bg-slate-200 text-gray-800 text-xs hover:bg-slate-300  font-medium px-3 w-auto py-1 rounded-xl}
+@tailwind utilities;
