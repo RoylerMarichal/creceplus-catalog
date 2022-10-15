@@ -46,10 +46,12 @@ function Footer() {
         </div>
         <div className="flex mt-20 mx-auto space-y-2 flex-col">
           <hr className="h-0.5 w-68 bg-white" />
-          <span className="text-white text-center">{state.shop.name} {new Date().getFullYear()}</span>
+          <span className="text-white text-center">
+            {state.shop.name} {new Date().getFullYear()}
+          </span>
           <span className="text-white text-center text-sm">
-           Desarrollado por{" "}
-            <a href="https://crecexdiez.com">CrecexDiez</a>
+            Desarrollado por{" "}
+            <a href="https://crecexdiez.com/e/creceplus">CrecexDiez</a>
           </span>
         </div>
       </footer>
